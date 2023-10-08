@@ -1,24 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- for và id giống nhau input mới mở ra -->
-    
-    <label for="text">Text</label>
-    <input id="text" type="text" min="0" step="2" max="10"> 
-   <input type="password" >
-    <input type="number" min="0" step="2" max="10"> 
-    <input type="email">
-    <input type="radio">
-    <input type="checkbox">
-    <input type="date" id="start" name="trip-start" value="2023-07-22" min="1954-01-01" max="2023-12-31" />
-    <input type="datetime">
-    <input type="const {propertyName} = objectToDestruct;">
-  
-    <input type="image">
-</body>
+
+    <div>
+      <label for="text">Text</label>
+      <input id="text" type="text" min="0" step="2" max="10" />
+    </div>
+   <hr>
+    <div>
+      <label for="password">password</label>
+      <input type="password" />
+    </div>
+    <hr>
+
+    <div>
+      <label for="number">number</label>
+
+      <input type="number" min="0" step="2" max="10" />
+    </div>
+    <hr>
+
+    <div>
+      <label for="email">email</label>
+
+      <input type="email" />
+    </div>
+    <hr>
+
+    <div>
+        <p> Please  select your favorite web language</p>
+
+      <label for="html">HTML</label>
+      <input type="radio" id="html" name="fav_language" value="HTML" /><br>
+
+      <label for="css">CSS</label>
+      <input type="radio" id="css" name="fav_language" value="CSS" /><br>
+
+      <label for="React Js">React Js</label>
+      <input type="radio" id="React Js" name="fav_language" value="React Js" /><br>
+
+      <label for="NodeJs">NodeJs</label>
+      <input type="radio" id="NodeJs" name="fav_language" value="NodeJs" /><br>
+
+      <label for="MongoDB">MongoDB</label>
+      <input type="radio" id="MongoDB" name="fav_language" value="MongoDB" /><br>
+
+      <label for="javascript">Java Script</label>
+      <input type="radio" id="javascript" name="fav_language" value="javaScript" />
+
+    </div>
+    <hr>
+
+    <div>
+        <p>Please select your number</p>
+
+      <label for="age1">0 -30 </label>
+      <input type="checkbox" id="age1" name="age" value="30" /><br>
+
+      <label for="age2">30 -60 </label>
+      <input type="checkbox" id="age2" name="age" value="60" /><br>
+
+      <label for="age3">60 -90 </label>
+      <input type="checkbox" id="age3" name="age" value="90" />
+    </div>
+    <hr>
+
+    <div>
+      <label for="date">date</label>
+
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2023-07-22"
+        min="1954-01-01"
+        max="2023-12-31"
+      />
+    </div>
+    <hr>
+
+    <div>
+      <label for="datetime">datetime</label>
+
+      <input type="datetime" />
+    </div>
+    <hr>
+
+    <div>
+      <input type="const {propertyName} = objectToDestruct;" />
+    </div>
+    <hr>
+
+    <div>
+      <label for="image">image</label>
+      <input
+        type="image"
+        img
+        width="269px"
+        height="269px"
+        src="http://foundry.mediumra.re/img/cover8.jpg"
+        alt="image 1"
+      />
+    </div>
+  </body>
 </html>
