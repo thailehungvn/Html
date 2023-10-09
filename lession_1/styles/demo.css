@@ -1,0 +1,27 @@
+
+      /* p {
+       
+        color: brown;
+    text-align: center;
+      }
+
+      #p-id {
+        color: green;
+      } */ */
+
+      .p-class {
+        color: violet !important;
+      }
+      .p-class2 {
+        color: brown;
+      }
+      /* THỨ TỰ ƯU TIÊN CÁC CSS  */
+      /* style >>> p-id>>> p-class >>>   p */
+      /* inline >internal */
+      /* id > class >tagname */
+      /* botton > top   */
+      
+
+
+
+ 
