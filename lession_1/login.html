@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <img src="http://foundry.mediumra.re/img/home12.jpg" alt="backgroud" />
-    <div>
-      <h1>LOGIN HERE</h1>
+    <title>Login</title>
 
-      <input type="text" 
-      placeholder="text" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
 
-      <br />
-      <input type="password" placeholder="password" />
-      <br />
+    <!-- để file globall trên cho chuẩn Seo -->
+    <link rel="stylesheet" href="./styles//global.css" />
 
-      <button>LOGIN</button>
-      <br>
-      <a href="#">Click Here To Reset</a>
+    <link rel="stylesheet" href="./styles//login.css" />
+</head>
+<script>
+    function button() {
+        document.getElementById("demo").innerHTML = "vui";
+    }
+</script>
+
+<body>
+
+
+
+    <!-- <img src="http://foundry.mediumra.re/img/home12.jpg " alt="backgroud " /> -->
+    <div class="background">
+        <img class="background" src="http://foundry.mediumra.re/img/home12.jpg" alt="background ">
+
+        <div class="block1">
+            <div class="block">
+                <h1 class="title">LOGIN HERE</h1>
+
+                <input class="input" type="text " placeholder="USERNAME " />
+
+                <input class="input" type="password " placeholder="PASSWORD " />
+
+                <p id="demo"></p>
+                <button class="button" href="./register.html " onclick="button()">LOGIN</button>
+                <p class="text">
+                    Forgot your password?
+                    <a href="./register.html ">Click Here To register</a>
+                </p>
+            </div>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>

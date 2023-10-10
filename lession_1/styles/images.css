@@ -1,0 +1,28 @@
+.title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    color: #292929;
+    text-align: center;
+}
+
+.sub {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 64px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.image {
+    width: 269px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}

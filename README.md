@@ -26,3 +26,7 @@ git commit -m "message"
 git push origin head -f
 
 thẻ targer="_blank" : mở thêm 1 trang mới từ liên kết
+
+vissibibity: hidden; : có ô nhưng không hiển thị
+display: none; : không hiện thị
+https://www.w3schools.com/cssref/css_selectors.php
